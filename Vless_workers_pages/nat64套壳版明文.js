@@ -482,7 +482,7 @@ async function handleUDPOutBound(webSocket, \u0076\u006c\u0065\u0073\u0073Respon
 function get\u0076\u006c\u0065\u0073\u0073Config(userID, hostName) {
   const w\u0076\u006c\u0065\u0073\u0073ws = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8880?encryption=none&security=none&type=ws&host=${hostName}&path=%2F%3Fed%3D2560#${hostName}`;
   const p\u0076\u006c\u0065\u0073\u0073wstls = `\u0076\u006c\u0065\u0073\u0073\u003A//${userID}\u0040${CDNIP}:8443?encryption=none&security=tls&type=ws&host=${hostName}&sni=${hostName}&fp=random&path=%2F%3Fed%3D2560#${hostName}`;
-  const note = `甬哥博客地址：https://ygkkk.blogspot.com\n甬哥YouTube频道：https://www.youtube.com/@ygkkk\n甬哥TG电报群组：https://t.me/ygkkktg\n甬哥TG电报频道：https://t.me/ygkkktgpd\n\nProxyIP使用nat64自动生成，无需设置`;
+  const note = `VLESS+TLS+WS`;
   const ty = `https://${hostName}/${userID}/ty`
   const cl = `https://${hostName}/${userID}/cl`
   const sb = `https://${hostName}/${userID}/sb`
@@ -529,7 +529,7 @@ ${displayHtml}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.27</h1>
+            <h1>Y2 V25.5.27 W</h1>
 	    <hr>
             <p>${noteshow}</p>
             <hr>
@@ -537,12 +537,12 @@ ${displayHtml}
 	    <hr>
             <br>
             <br>
-            <h3>1：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws节点</h3>
+            <h3>1：单节点</h3>
 			<table class="table">
 				<thead>
 					<tr>
-						<th>节点特色：</th>
-						<th>单节点链接如下：</th>
+						<th>说明：</th>
+						<th>单节点链接：</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -553,7 +553,7 @@ ${displayHtml}
 					</tr>
 				</tbody>
 			</table>
-            <h5>客户端参数如下：</h5>
+            <h5>客户端参数：</h5>
             <ul>
                 <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
                 <li>端口(port)：7个http端口可任意选择(80、8080、8880、2052、2082、2086、2095)，或反代IP对应端口</li>
@@ -671,7 +671,7 @@ ${displayHtml}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Cloudflare-workers/pages-\u0076\u006c\u0065\u0073\u0073代理脚本 V25.5.27</h1>
+            <h1>Y2 V25.5.27 W</h1>
 			<hr>
             <p>${noteshow}</p>
             <hr>
@@ -679,12 +679,12 @@ ${displayHtml}
 			<hr>
             <br>
             <br>
-            <h3>1：CF-pages/workers/自定义域-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+            <h3>1：单节点</h3>
 			<table class="table">
 				<thead>
 					<tr>
-						<th>节点特色：</th>
-						<th>单节点链接如下：</th>
+						<th>说明：</th>
+						<th>单节点链接：</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -711,9 +711,9 @@ ${displayHtml}
 			<hr>
             <br>
             <br>
-			<h3>2：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<h3>2：订阅链接：</h3>
 			<hr>
-			<p>注意：以下订阅链接仅6个TLS端口节点</p>
+			<p>注：以下订阅链接含6个TLS端口节点</p>
 			<hr>
 			<table class="table">
 					<thead>
