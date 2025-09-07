@@ -568,12 +568,12 @@ ${displayHtml}
 			<hr>
             <br>
             <br>
-            <h3>2：CF-workers-\u0076\u006c\u0065\u0073\u0073+ws+tls节点</h3>
+            <h3>2：单节点</h3>
 			<table class="table">
 				<thead>
 					<tr>
-						<th>节点特色：</th>
-						<th>单节点链接如下：</th>
+						<th>说明：</th>
+						<th>单节点链接：</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -584,7 +584,7 @@ ${displayHtml}
 					</tr>
 				</tbody>
 			</table>
-            <h5>客户端参数如下：</h5>
+            <h5>客户端参数：</h5>
             <ul>
                 <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
                 <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
@@ -600,7 +600,7 @@ ${displayHtml}
 			<hr>
 			<br>	
 			<br>
-			<h3>3：聚合通用、Clash-meta、Sing-box订阅链接如下：</h3>
+			<h3>3：订阅链接</h3>
 			<hr>
 			<p>注意：<br>1、默认每个订阅链接包含TLS+非TLS共13个端口节点<br>2、当前workers域名作为订阅链接，需通过代理进行订阅更新<br>3、如使用的客户端不支持分片功能，则TLS节点不可用</p>
 			<hr>
@@ -695,7 +695,7 @@ ${displayHtml}
 					</tr>
 				</tbody>
 			</table>
-            <h5>客户端参数如下：</h5>
+            <h5>客户端参数：</h5>
             <ul>
                 <li>客户端地址(address)：自定义的域名 或者 优选域名 或者 优选IP 或者 反代IP</li>
                 <li>端口(port)：6个https端口可任意选择(443、8443、2053、2083、2087、2096)，或反代IP对应端口</li>
